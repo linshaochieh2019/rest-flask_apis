@@ -7,7 +7,7 @@ However, the development server doesn't offer the best performance. Therefore wh
 
 ## Running app locally
 We have to enter the command manually:
-docker run -dp 5005:5000 -w /app -v "$(pwd):/app" rest-apis-flask-python sh -c "flask run --host 0.0.0.0"
+docker run -dp 5005:5000 -w /app -v "$(pwd):/app" rest-apis-flask sh -c "flask run --host 0.0.0.0"
 
 We have been using the first half of the command to use volume for development. Now we added the second half to let the local container know that we will be running locally, instead of using the CMD line written in the Dockerfile, as that's already for gunicorn
 
