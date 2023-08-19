@@ -3,3 +3,8 @@ In order to remake the MDT website, I took a flask course on Udemy and learned t
 
 # This is my branch
 The money racing on the mountains was fun to watch.
+
+# This is something developed by Jasmine
+Hello world!
+
+### To resolve the merge conflict, we decided to keep both
