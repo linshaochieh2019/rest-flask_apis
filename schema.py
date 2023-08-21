@@ -43,6 +43,9 @@ class UserSchema(Schema):
     username = fields.Str(required=True)
     password = fields.Str(required=True, load_only=True)
 
+class UserRegisterSchema(UserSchema):
+    email = fields.Str(required=True)
+
 class BlocklistSchema(Schema):
     id = fields.Int(dump_only=True)
     jti = fields.Str()
